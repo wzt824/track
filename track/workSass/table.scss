@@ -1,0 +1,157 @@
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea {
+  margin: 0;
+  padding: 0; }
+html,body{
+  height: 100%;
+  min-width: 442px;
+}
+a {
+  text-decoration: none!important; }
+li {
+  list-style: none; }
+#tableOne{
+  width: 100%;
+  padding: 4px 5px 20px;
+  overflow: hidden;
+  background: white;
+  overflow-x: auto;
+}
+//table
+.table{
+  width: 100%;
+  tr{
+    height: 42px;
+    line-height: 42px;
+  }
+}
+.publicH{
+  height: 80px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 80px;
+}
+.tableTwo{
+  width: 100%;
+  padding: 2px;
+  overflow: hidden;
+  margin-top: 20px;
+  .TwoOne{
+    width: 49%;
+    float: left;
+    background: white;
+    height: 271px;
+    margin-right: 2%;
+    padding: 0 8px;
+    box-shadow: 0 0 3px 2px #dddddd;
+    .table1{
+      border: 1px solid #dddddd;
+      tbody{
+        tr:hover{
+          background: #d5d5d5!important;
+        }
+      }
+    }
+  }
+  .TwoTwo{
+    width: 49%;
+    float: left;
+    background: white;
+    height: 271px;
+    padding: 0 8px;
+    box-shadow: 0 0 3px 2px #dddddd;
+  }
+}
+.tableThree{
+  width: 100%;
+  padding: 2px;
+  margin-top: 20px;
+  overflow: hidden;
+  .ThreeOne{
+    width: 49%;
+    float: left;
+    background: white;
+    height: 271px;
+    margin-right: 2%;
+    padding: 0 8px;
+    box-shadow: 0 0 3px 2px #dddddd;
+    .table2{
+      border: 0;
+      tbody{
+        tr:hover{
+          background: #d5d5d5!important;
+        }
+      }
+    }
+  }
+  .ThreeTwo{
+    width: 49%;
+    float: left;
+    background: white;
+    height: 271px;
+    padding: 0 8px;
+    box-shadow: 0 0 3px 2px #dddddd;
+    .table2{
+      border:1px solid #ddd;
+    }
+  }
+}
+.tableFour{
+  width: 100%;
+  padding: 2px;
+  margin-top: 20px;
+  overflow: hidden;
+  .FourOne{
+    width: 49%;
+    float: left;
+    background: white;
+    height: 271px;
+    margin-right: 2%;
+    padding: 0 8px;
+    box-shadow: 0 0 3px 2px #dddddd;
+    .table1{
+      border: 0;
+      tbody{
+        tr:hover{
+          background: #d5d5d5!important;
+        }
+      }
+    }
+  }
+  .FourTwo{
+    width: 49%;
+    float: left;
+    background: white;
+    height: 300px;
+    padding: 0 8px;
+    box-shadow: 0 0 3px 2px #dddddd;
+    .table2{
+      border:1px solid #ddd;
+    }
+  }
+}
+@media screen and (max-width: 990px){
+  .TwoOne{
+    width: 100%!important;
+    margin-top: 20px;
+  }
+  .TwoTwo{
+    width: 100%!important;
+    margin-top: 20px;
+  }
+  .ThreeOne{
+    width: 100%!important;
+    margin-top: 20px;
+  }
+  .ThreeTwo{
+    width: 100%!important;
+    margin-top: 20px;
+  }
+  .FourOne{
+    width: 100%!important;
+    margin-top: 20px;
+  }
+  .FourTwo{
+    width: 100%!important;
+    margin-top: 20px;
+  }
+}

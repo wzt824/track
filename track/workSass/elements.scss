@@ -1,0 +1,348 @@
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea {
+  margin: 0;
+  padding: 0; }
+html,body{
+  height: 100%;
+  min-width: 442px;
+}
+a {
+  text-decoration: none!important; }
+li {
+  list-style: none; }
+.elePage1{
+  margin-top: 29px;
+  width: 100%;
+  height: 407px;
+  background: white;
+  box-shadow: 0 0 3px 2px #dddddd;
+  ul{
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    padding: 0 20px;
+    li{
+      width: 100%;
+      height: 18%;
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      text-indent: 16px;
+      border-radius: 5px;
+      background: #30cc7b;
+      strong{
+        margin-right: 4px;
+      }
+    }
+    li:nth-child(1){
+      color: #3c763d;
+      border: 1px solid #d6e9c6;
+      background: #dff0d8;
+    }
+    li:nth-child(2){
+      color: #317095;
+      border: 1px solid #bce8f1;
+      background: #d9edf7;
+    }
+    li:nth-child(3){
+      color: #8a6d3b;
+      border: 1px solid #faebcc;
+      background: #fcf8e3;
+    }
+    li:nth-child(4){
+      color: #a94442;
+      border: 1px solid #ebccd1;
+      background: #f2dede;
+    }
+  }
+  .ele1{
+    width: 100%;
+    height: 15%;
+    margin-top: 2%;
+    border-top: 1px solid rgba(160,160,160,0.2);
+    padding: 20px;
+    h3{
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+}
+.publicUp{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  h3{
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+.elePage2{
+  margin-top: 29px;
+  width: 100%;
+  height:270px;
+  padding: 20px 0;
+  .elePageTl{
+    height: 100%;
+    width: 49%;
+    background: white;
+    float: left;
+    margin-right: 2%;
+    padding: 0 20px;
+    box-shadow: 0 0 3px 2px #dddddd;
+    .TlDown{
+      height: 70%;
+      width:100%;
+      .progress {
+        margin-bottom: 20px;
+        height: 20px;
+        background: #ebebeb;
+        border-radius: 0;
+        .span {
+          position: relative;
+          float: left;
+          min-width: 30px;
+          height: 18px;
+          line-height: 16px;
+          text-align: right;
+          background: #cccccc;
+        }
+        .green {
+          background: #5cb85c;
+        }
+        .blue {
+          background: #5bc0de;
+        }
+        .orange {
+          background: #f0ad4e;
+        }
+        .red {
+           background: #d9534f;
+        }
+      }
+    }
+  }
+  .elePageTr{
+    height: 100%;
+    width: 49%;
+    background: white;
+    float: left;
+    padding: 0 20px;
+    box-shadow: 0 0 3px 2px #dddddd;
+    .TrDown{
+      height: 70%;
+      width:100%;
+      .progress{
+        margin-bottom: 20px;
+        height: 20px;
+        border-radius: 0;
+        .progress-value{
+          margin-top: 1px;
+        }
+        .active{
+          border-radius: 0;
+          animation: none;
+        }
+      }
+    }
+  }
+}
+.elePage3{
+  margin-top: 29px;
+  width: 100%;
+  height:147px;
+  .eleThreeLeft{
+    height: 100%;
+    width: 49%;
+    background: white;
+    float: left;
+    margin-right: 2%;
+    padding: 0 20px;
+    box-shadow: 0 0 3px 2px #dddddd;
+    .eleThreeD{
+      width: 100%;
+      height: 70%;
+      display: flex;
+      align-items: center;
+      .progress{
+        width: 100%;
+        height: 30px;
+        .progress-value{
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+  .eleThreeRight{
+    height: 100%;
+    width: 49%;
+    background: white;
+    float: left;
+    padding: 0 20px;
+    box-shadow: 0 0 3px 2px #dddddd;
+  }
+}
+.elePage4{
+  margin-top: 29px;
+  width: 100%;
+  .elePage4Up{
+    height: 60px;
+  }
+  .eleFourLeft{
+    height: 100%;
+    width: 60%;
+    background: white;
+    float: left;
+    margin-right: 2%;
+    padding: 0 20px;
+    box-shadow: 0 0 3px 2px #dddddd;
+    .Four_one{
+      width: 100%;
+      overflow: hidden;
+      padding: 20px 0;
+      a{
+        display: inline-block;
+        float: left;
+        padding: 6px 12px;
+        background: #26a69a;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 4px;
+        color: white;
+        margin-right:6px;
+        margin-bottom: 10px;
+        box-shadow: 1px 2px 2px 1px #ddd;
+        i{
+          margin-right: 8px;
+          font-size: 14px;
+        }
+        .cloud2{
+          margin-left: 2px;
+          margin-right: 0;
+        }
+      }
+      .btn1{
+        margin-top: 10px;
+      }
+      .btn2{
+        height: 54px;
+        line-height: 54px;
+        padding: 0 20px;
+      }
+      .disabled{
+        background-color: #DFDFDF;
+        box-shadow: none;
+        color: #9F9F9F;
+        cursor: default;
+      }
+      .empty{
+        background: white;
+        float: left;
+      }
+      .earch{
+        width: 40px;
+        height: 40px;
+        line-height: 29px;
+        text-align: center;
+        border-radius: 50%;
+        color: white;
+        background: #DFDFDF;
+      }
+      .btn:hover{
+        color: #000;
+        background: #1ebfae;
+      }
+      .btn02:hover{
+        color: #337ab7;
+        text-decoration: underline!important;
+        background: #1ebfae;
+      }
+    }
+  }
+  .eleFourRight{
+    height: 100%;
+    width: 38%;
+    background: white;
+    float: left;
+    padding: 0 20px;
+    box-shadow: 0 0 3px 2px #dddddd;
+    .Four_Two{
+      width: 100%;
+      padding: 20px 0;
+      height: 120px;
+      h4{
+        padding-top: 10px;
+        font-size: 16px;
+      }
+      a{
+        display: inline-block;
+        padding: 6px 12px;
+        float: left;
+        margin-right: 5px;
+        margin-top: 15px;
+        color: #ffffff;
+        border-radius: 3px;
+        position: relative;
+        ul{
+          position: absolute;
+          top: 37px;
+          left: 0;
+          display: none;
+          border: 1px solid #ddd;
+          background: white;
+          li{
+            width: 150px;
+            padding:2px 10px;
+            color: #000;
+          }
+          li:hover{
+            background: #dddddd;
+          }
+        }
+      }
+      .TOne{
+        background-color: #286090!important;
+      }
+      .Ttwo{
+        background-color: #d9534f;
+      }
+      .Tthree{
+        background-color: #f0ad4e;
+      }
+    }
+  }
+}
+.elePage4:after{
+  content:"" ;
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 990px){
+  .elePageTl{
+    width: 100%!important;
+    margin-bottom: 20px;
+  }
+  .elePageTr{
+    width: 100%!important;
+    margin-bottom: 40px;
+  }
+  .eleThreeLeft{
+    width: 100%!important;
+    margin-bottom: 20px;
+  }
+  .eleThreeRight{
+    width: 100%!important;
+    margin-bottom: 40px;
+  }
+  .eleFourLeft{
+    width: 100%!important;
+    margin-bottom: 20px;
+  }
+  .eleFourRight{
+    width: 100%!important;
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div id="slideBox"></div>
+    <div class="loginBox">
+        <form action="">
+            <a href="index.html"><h1>LOGO</h1></a>
+            <span>Email: </span><input type="text"><br>
+            <span>Name:</span><input type="text"><br>
+            <span>PassWord:</span><input type="password">
+            <a href="index.html"><input type="button" value="登录" class="login"></a>
+        </form>
+    </div>
+</body>
+</html>
+<!--<script src="js/getStyle.js"></script>-->
+<!--<script src="js/mover.js"></script>-->
+<!--<script src="js/slider.js"></script>-->
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="node_modules/echarts/dist/echarts.js"></script>
+<script src="http://echarts.baidu.com/resource/echarts-gl-latest/dist/echarts-gl.min.js"></script>
+<script src="node_modules/echarts/map/js/world.js"></script>
+<script src="node_modules/echarts/map/js/china.js"></script>
+<script>
+    // window.onload = function(){
+    //     sizes();
+    // }
+    // window.onresize = function(){
+    //     sizes();
+    // }
+    // function sizes(){
+    //     let sliderBox = document.getElementById("slideBox");
+    //     var width1 = document.documentElement.clientWidth || document.body.clientWidth;
+    //     var height1 = document.documentElement.clientHeight || document.body.clientHeight;
+    //     let s1 = new Slider(sliderBox,width1,height1,["images/true.jpg","images/ture1.jpg","images/true2.jpg"],
+    //         140,30,"#ddd","#000",
+    //         true,-1,2000);
+    // }
+
+    $(function () {
+        funMap();
+    })
+    function funMap() {
+        var mapChart = echarts.init(document.getElementById('slideBox'));
+        option = {
+            backgroundColor: '#000',
+            globe: {
+                baseTexture: "images/world.topo.bathy.200401.jpg",
+                heightTexture: "images/world.topo.bathy.200401.jpg",
+                displacementScale: 0.04,
+                shading: 'realistic',
+                environment: 'images/timg.jpg',
+                realisticMaterial: {
+                    roughness: 0.9
+                },
+                postEffect: {
+                    enable: true
+                },
+                light: {
+                    main: {
+                        intensity: 5,
+                        shadow: true
+                    },
+                    ambientCubemap: {
+                        texture: 'images/world.topo.bathy.200401.jpg',
+                        diffuseIntensity: 0.2
+                    }
+                }
+            }
+        };
+        mapChart.setOption(option);
+    }
+
+    var logins= document.getElementById('slideBox');
+    function login_resize() {//用于使chart自适应高度和宽度,通过窗体高宽计算容器高宽
+        logins.style.width = document.getElementById('slideBox').innerWidth+'px';
+        logins.style.height = document.getElementById('slideBox').innerHeight+'px';
+    }
+    login_resize ();//设置容器高宽
+    var myChartcharts = echarts.init(logins);// 基于准备好的dom，初始化echarts实例
+
+    window.onresize = function () {//用于使chart自适应高度和宽度
+        //charts-p1
+        login_resize();//重置容器高宽
+        myChartcharts.resize();
+    }
+</script>

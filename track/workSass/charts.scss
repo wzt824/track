@@ -1,0 +1,104 @@
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  min-width: 442px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none;
+}
+
+header .headRight ul li a {
+  display: block;
+  color: #848484;
+  font-size: 16px;
+  padding: 7px 17px;
+}
+
+#pageOne {
+  margin-top: 29px;
+  width: 100%;
+  height: 500px;
+  background: white;
+  overflow: hidden;
+  box-shadow: 0 0 3px 2px #dddddd;
+}
+
+#pageTwo {
+  margin-top: 29px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #d5d5d5;
+  box-shadow: 0 0 3px 2px #dddddd;
+}
+#pageThree{
+  margin-top: 29px;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  background: #d5d5d5;
+  box-shadow: 0 0 3px 2px #dddddd;
+}
+#pageFour{
+  margin-top: 29px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #d5d5d5;
+  box-shadow: 0 0 3px 2px #dddddd;
+}
+#pageFive{
+  margin-top: 29px;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background: #d5d5d5;
+  box-shadow: 0 0 3px 2px #dddddd;
+}
+#pageSex{
+  margin-top: 29px;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background: #d5d5d5;
+  box-shadow: 0 0 3px 2px #dddddd;
+}
+#pageSevenBox{
+  width: 100%;
+  height: 550px;
+  #pageSevenTxt{
+    width: 100%;
+    height: 48px;
+    padding: 0 40px;
+    h3{
+      font-size: 24px;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+  #pageSeven{
+    margin-top: 29px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background: #eeeeee;
+    box-shadow: 0 0 3px 2px #dddddd;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #pageOne {
+    margin-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=charts.css.map */

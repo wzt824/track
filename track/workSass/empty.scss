@@ -1,0 +1,285 @@
+body, p, ul, ol, dl, dd, h1, h2, h3, h4, h5, h6, td, input, select, option, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  min-width: 509px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none;
+}
+.slideshowBox{
+  width: 100%;
+  margin-top: 20px;
+  background: white;
+  height: 400px;
+  box-shadow: 0 0 3px 2px #dddddd;
+  position: relative;
+  #slideBox{
+    width: 100%;
+    height: 400px;
+  }
+  #slideBg{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    z-index: 999999;
+    #spring-text{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.pagePulic{
+  width: 100%;
+  height: 50px;
+  h3{
+    color: #5e5e5e;
+    line-height: 30px;
+    font-size: 20px;
+  }
+  p{
+    color: #9d9d9d;
+  }
+}
+#pageEmp1 {
+  margin-top: 29px;
+  width: 100%;
+  height: 500px;
+  .pageEmpOneLeftBox{
+    width: 49%;
+    height: 100%;
+    padding: 0 20px;
+    background: white;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 0 0 3px 2px #dddddd;
+    #pageEmpOneLeft{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .pageEmpOneRightBox{
+    width: 49%;
+    height: 100%;
+    padding: 0 20px;
+    background: white;
+    float: left;
+    box-shadow: 0 0 3px 2px #dddddd;
+    #pageEmpOneRight{
+      width: 100%;
+      height: 440px;
+    }
+  }
+}
+.pageEmp2 {
+  margin-top: 29px;
+  width: 100%;
+  height: 500px;
+  .pageEmpTwoLeftBox{
+    width: 49%;
+    height: 100%;
+    padding: 0 20px;
+    background: white;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 0 0 3px 2px #dddddd;
+    #pageEmpTwoLeft{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .pageEmpTwoRightBox{
+    width: 49%;
+    height: 100%;
+    padding: 0 20px;
+    background: white;
+    float: left;
+    box-shadow: 0 0 3px 2px #dddddd;
+    #pageEmpTwoRight{
+      width: 100%;
+      height: 440px;
+    }
+  }
+}
+.pageEmp3 {
+  margin-top: 29px;
+  width: 100%;
+  height: 500px;
+  .pageEmpThreeLeftBox{
+    width: 49%;
+    height: 100%;
+    padding: 0 20px;
+    background: white;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 0 0 3px 2px #dddddd;
+    #pageEmpThreeLeft{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .pageEmpThreeRightBox{
+    width: 49%;
+    height: 100%;
+    padding: 0 20px;
+    background: white;
+    float: left;
+    box-shadow: 0 0 3px 2px #dddddd;
+    #pageEmpThreeRight{
+      width: 100%;
+      height: 440px;
+    }
+  }
+}
+.pageEmp4 {
+  margin-top: 29px;
+  width: 100%;
+  height: 500px;
+  .pageEmpFourLeftBox{
+    width: 49%;
+    height: 100%;
+    padding: 0 20px;
+    background: white;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 0 0 3px 2px #dddddd;
+    #pageEmpFourLeft{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .pageEmpFourRightBox{
+    width: 49%;
+    height: 100%;
+    padding: 0 20px;
+    background: white;
+    float: left;
+    box-shadow: 0 0 3px 2px #dddddd;
+    #pageEmpFourRight{
+      width: 100%;
+      height: 440px;
+    }
+  }
+}
+.pageEmp5 {
+  margin-top: 29px;
+  width: 100%;
+  height: 500px;
+  .pageEmpFiveLeftBox{
+    width: 49%;
+    height: 100%;
+    padding: 0 20px;
+    background: white;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 0 0 3px 2px #dddddd;
+    #pageEmpFiveLeft{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .pageEmpFiveRightBox{
+    width: 49%;
+    height: 100%;
+    padding: 0 20px;
+    background: white;
+    float: left;
+    box-shadow: 0 0 3px 2px #dddddd;
+    #pageEmpFiveRight{
+      width: 100%;
+      height: 440px;
+    }
+  }
+}
+.pageEmp6 {
+  margin-top: 29px;
+  width: 100%;
+  height: 500px;
+  .pageEmpSexLeftBox{
+    width: 49%;
+    height: 100%;
+    padding: 0 20px;
+    background: white;
+    float: left;
+    margin-right: 2%;
+    box-shadow: 0 0 3px 2px #dddddd;
+    #pageEmpSexLeft{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .pageEmpSexRightBox{
+    width: 49%;
+    height: 100%;
+    padding: 0 20px;
+    background: white;
+    float: left;
+    box-shadow: 0 0 3px 2px #dddddd;
+    #pageEmpSexRight{
+      width: 100%;
+      height: 440px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pageEmpOneLeftBox {
+    width: 100%!important;
+    margin-top: 20px;
+  }
+  .pageEmpOneRightBox {
+    width: 100%!important;
+    margin-top: 30px;
+  }
+  .pageEmpTwoLeftBox{
+    width: 100%!important;
+    margin-top: 20px;
+  }
+  .pageEmpTwoRightBox{
+    width: 100%!important;
+    margin-top: 30px;
+  }
+  .pageEmpThreeLeftBox{
+    width: 100%!important;
+    margin-top: 20px;
+  }
+  .pageEmpThreeRightBox{
+    width: 100%!important;
+    margin-top: 30px;
+  }
+  .pageEmpFourLeftBox{
+    width: 100%!important;
+    margin-top: 20px;
+  }
+  .pageEmpFourRightBox{
+    width: 100%!important;
+    margin-top: 30px;
+  }
+  .pageEmpFiveLeftBox{
+    width: 100%!important;
+    margin-top: 20px;
+  }
+  .pageEmpFiveRightBox{
+    width: 100%!important;
+    margin-top: 30px;
+  }
+  .pageEmpSexLeftBox{
+    width: 100%!important;
+    margin-top: 20px;
+  }
+  .pageEmpSexRightBox{
+    width: 100%!important;
+    margin-top: 30px;
+  }
+}
